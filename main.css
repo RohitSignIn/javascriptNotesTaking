@@ -1,0 +1,58 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+* body {
+  background-color: #2d2d2d;
+}
+* body #addNote {
+  position: fixed;
+  padding: 10px;
+  color: #fff;
+  background-color: black;
+  border-radius: 5px;
+  top: 5px;
+  right: 5px;
+}
+* body #main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  min-height: 100vh;
+}
+* body #main .note {
+  margin-top: 45px;
+  margin-right: 15px;
+  background-color: #fff;
+  width: 280px;
+  height: 320px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+* body #main .note .tool {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  background-color: black;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+* body #main .note .tool svg {
+  width: 25px;
+  fill: #fff;
+  padding: 5px;
+  cursor: pointer;
+}
+* body #main .note textarea {
+  width: 100%;
+  height: 100%;
+  resize: none;
+  border: none;
+  padding: 10px;
+  font-size: 1.1rem;
+}
+* body #main .note textarea:focus {
+  outline: none;
+}/*# sourceMappingURL=main.css.map */
